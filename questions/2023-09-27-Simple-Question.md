@@ -1,5 +1,5 @@
 ---
-layout: question
+layout: questions
 title: "Mamatha's website for simple questions"
 date: 2023-09-27
 ---
