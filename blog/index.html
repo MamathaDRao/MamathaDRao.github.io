@@ -4,7 +4,7 @@ title: Mamatha's Blog
 ---
 	<ul class="questions">
 
-	  {% for qu in site.questions %}
+	  {for qu in site.questions}
 	    <li><span>{{ qu.date | date_to_string }}</span> » <a href="{{ qu.url }}" title="{{ qu.title }}">{{ qu.title }}</a></li>
-	  {% endfor %}
+	  {endfor}
 	</ul>
