@@ -1,5 +1,5 @@
 	name: Mamatha's Website
 	markdown: kramdown
- 	baseurl: /_layouts
+ 	baseurl: /
   	url: http://MamathaDRao.github.io
  	permalink: /blog/:year/:month/:day/:title
