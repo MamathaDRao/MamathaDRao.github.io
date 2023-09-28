@@ -2,9 +2,10 @@
 layout: default
 title: Mamatha's Blog
 ---
+	<h1>{{ page.title }}</h1>
 	<ul class="questions">
-
-	  for qu in site.questions
-	    <li><span>{{ qu.date }}</span> » <a href="{{ qu.url }}" title="{{ qu.title }}">{{ qu.title }}</a></li>
-	  
+	
+	  {% for qu in site.questions %}
+	    <li><span>{{ qu.date | date_to_string }}</span> » <a href="{{ qu.url }}" title="{{ qu.title }}">{{ qu.title }}</a></li>
+	  {% endfor %}
 	</ul>
