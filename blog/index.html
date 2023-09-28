@@ -3,9 +3,9 @@ layout: default
 title: Mamatha's Blog
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="questions">
+	<ul class="question">
 
-	  {% for question in site.questions %}
-	    <li><span>{{ question.date | date_to_string }}</span> » <a href="{{ question.url }}" title="{{ question.title }}">{{ question.title }}</a></li>
+	  {% for qu in site.question %}
+	    <li><span>{{ qu.date | date_to_string }}</span> » <a href="{{ qu.url }}" title="{{ qu.title }}">{{ qu.title }}</a></li>
 	  {% endfor %}
 	</ul>
