@@ -5,7 +5,7 @@ title: Mamatha's Blog
 	<h1>{{ page.title }}</h1>
 	<ul class="questions">
 
-	  {% for question in site.question %}
+	  {% for question in site.questions %}
 	    <li><span>{{ question.date | date_to_string }}</span> » <a href="{{ question.url }}" title="{{ question.title }}">{{ question.title }}</a></li>
 	  {% endfor %}
 	</ul>
