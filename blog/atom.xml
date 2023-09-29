@@ -14,7 +14,7 @@ layout: feed
 		<email>mamathad1@outlook.com</email>
 	</author>
 
-	<--Checking to see if the post functionality is working for multiple posts-->
+	<!--Checking to see if the post functionality is working for multiple posts-->
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
